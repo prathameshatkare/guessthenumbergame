@@ -1,20 +1,20 @@
-Here’s an enhanced README for your **Guess the Number Game** project:
+Here’s an updated README for your **Guess the Number Game** in C++:
 
 ---
 
 # Guess The Number Game
 
 ## Overview
-The **Guess The Number Game** is a simple, interactive Python game where the player attempts to guess a randomly selected number within a specific range. The program provides feedback to guide the player towards the correct guess.
+The **Guess The Number Game** is a simple console-based C++ game where players attempt to guess a randomly generated number within a defined range. The game provides hints on whether the guessed number is higher or lower than the target.
 
 ## Features
-- Random number generation for each game.
-- User-friendly interface with input prompts.
-- Feedback for guesses (higher/lower than target).
+- Random number generation for each game session.
+- User-friendly input prompts.
+- Feedback on guesses (higher/lower).
 - Configurable difficulty levels.
 
 ## Technologies Used
-- **Language**: Python
+- **Language**: C++
 
 ## How to Play
 1. Clone the repository:
@@ -23,23 +23,29 @@ The **Guess The Number Game** is a simple, interactive Python game where the pla
    cd guessthenumbergame
    ```
 
-2. Run the game:
+2. Compile the game:
    ```bash
-   python guess_the_number.py
+   g++ guess_the_number.cpp -o guess_the_number
    ```
 
-3. Follow the on-screen instructions to guess the number.
+3. Run the game:
+   ```bash
+   ./guess_the_number
+   ```
+
+4. Follow the on-screen instructions to guess the number.
 
 ## Future Enhancements
-- Add different difficulty levels.
-- Implement a GUI version using `Tkinter` or `PyGame`.
-- Track user statistics (number of guesses, average accuracy).
+- Add difficulty levels.
+- Implement a graphical user interface (GUI) using libraries like SFML or Qt.
+- Track user statistics (number of attempts, average guesses).
 
 ## Contributing
-Contributions are welcome! Open an issue or submit a pull request for any suggestions or improvements.
+Contributions are welcome! Feel free to open issues or submit pull requests for suggestions or improvements.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
+This README clearly outlines the game, its features, and how to play. Let me know if you need any more changes!
