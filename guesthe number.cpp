@@ -7,7 +7,7 @@ int guess(int n){
 			cout<<"To high"<<endl;
 			break;
 		}
-		else if(61>ans){
+		else if(61<ans){
 		cout<<"To low"<<endl;
 		break;
 		}
